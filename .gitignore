@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output and coverage
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+*.tsbuildinfo
+apps/api/src/generated/prisma/
+
+# Logs and generated caches
+*.log
+logs/
+**/logs/
+.cache/
+**/.cache/
+npm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+**/.DS_Store
+.AppleDouble
+Thumbs.db
+desktop.ini
+
+/generated/prisma

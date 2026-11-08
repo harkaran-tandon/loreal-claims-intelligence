@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #24231f;
+  background: #f6f4f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #24231f;
+  --ink-strong: #171715;
+  --muted: #77736a;
+  --muted-light: #969188;
+  --line: #e7e4dc;
+  --line-dark: #d8d4ca;
+  --paper: #fff;
+  --canvas: #f6f4f0;
+  --ivory: #f6f4f0;
+  --soft: #f1efe9;
+  --gold: #c6a66b;
+  --accent: #927747;
+  --accent-dark: #705b36;
+  --positive: #3e6c52;
+  --positive-bg: #edf4ef;
+  --negative: #9c4c42;
+  --negative-bg: #f8efed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--canvas);
+}
+
+body,
+button,
+textarea {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+button,
+textarea {
+  font-size: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgb(198 166 107 / 55%);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fff;
+  background: #806b45;
+}
+
+#root {
+  min-height: 100vh;
+}
